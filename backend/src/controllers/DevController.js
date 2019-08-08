@@ -30,7 +30,7 @@ module.exports = {
   async index(req,res){
 
     const { user } = req.headers;
-    console.log(user);
+
     const loggedDev = await Dev.findById(user);
 
     const Devs = await Dev.find({

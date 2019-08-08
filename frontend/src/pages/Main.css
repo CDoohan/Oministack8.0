@@ -63,3 +63,9 @@
     transform: translateY(-5px);
     transition: all 0.2s;
 }
+
+.main-container .empty{
+    margin-top:300px;
+    font-size:32px;
+    color:#999;
+}
